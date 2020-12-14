@@ -1,6 +1,9 @@
 
-compile:
-	g++ main.cpp -o easyswing -lcurl
+gpp-compile:
+	g++ main.cpp -lcurl -o gpp-easyswing
+
+gcc-compile:
+	gcc main.cpp -lcurl -o gcc-easyswing -lstdc++
 
 run:
 	./easywing
